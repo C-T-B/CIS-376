@@ -1,0 +1,116 @@
+* {
+				font-family: 'Roboto mono', sans-serif;
+				text-align: center;
+                color: azure;}
+			body {
+				width: 90%;
+				margin: 0 auto;
+				background-image: url("http://i.stack.imgur.com/jGlzr.png");
+			}
+			#content {
+                display: inline-flex;
+                flex-wrap: wrap;}
+            #nav {
+                margin: 0px;
+				text-align: left; 
+				word-wrap: break-word;
+				}
+            #feature {
+				margin: 150px;
+				text-align: left; 
+				word-wrap: break-word;
+				}
+            #footer {
+				margin: 50px;
+				text-align: left; 
+				word-wrap: break-word;
+				}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+                height: 600px;
+				float: left;
+				margin: 1%;}
+			.column3 {
+				margin-right: 0%;}
+			.rounded_pic {
+                z-index: 1;
+                height: 90px; 
+                width: 90px; 
+                display: inline-block;  
+                border-radius: 90px;
+                position: relative; 
+                top: 7px; 
+                left: 7px;
+                margin-left: 10px;
+                }
+            .header_content {
+                margin: 0px;
+                }
+            li {
+				display: inline;
+				padding: 0.5em;}
+			.h3 { 
+			     position: absolute;
+			 top: 50%;
+			left: 50%; }
+			#header {
+                padding: 0px; 
+                margin: 0px; 
+                height: 85px;
+                width: 100% ;
+                background-image: url("http://www.afxgroup.com/template/AFX/img/header/about-image.jpg"); 
+                font-family: Montserrat; 
+                text-align: left; 
+                position: fixed; 
+                top: 0px; 
+                left: 0px; 
+                z-index: 999;}
+                #nav {
+                background-color: #808080;
+				padding: 0.5em 0;}
+                #footer {
+				background-color: #808080;
+				padding: 0.5em 0;
+                margin: 25px;
+                position: relative;
+                top: 100px}
+			#feature, .article {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: #808080;}
+            #work_feature, .article {
+				height: 50em;
+                display: inline;
+				margin-bottom: 10em;
+				background-color: #808080;}
+			#links {
+				width: 30%;
+                height: 600px;
+				float: left;
+				margin: 1%;}
+			}
+			#list-container ul li {
+				float: left;
+				clear: left;
+				}
+			#about {
+				height: 30em;
+				margin-bottom: 1em;
+				background-color: #808080;
+				word-wrap: break-word;
+			}
+			#me {
+				position: relative;
+				right: 25%;
+				top: 05%;
+			}
+			#centered {
+				position: relative; 
+				left: 90%;
+				transform: translateX(-50%);
+			}
+			#about-text {
+				position:absolute;
+				top: 25%;
+				left: 40%;
+			}
