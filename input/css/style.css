@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin:0 auto;
+  background: grey;
+}
+
+.container {
+  width:500px;
+  height:400px;
+  text-align:center;
+  background: rgba(52,73,94,0.6);
+  margin: 150px auto;
+  border-radius: 5px;
+}
+
+input[type="text"], input[type="password"] {
+  height:45px;
+  width:300px;
+  font-size:18px;
+  margin-bottom:25px;
+  background-color:#fff;
+  padding-left:30px;
+  margin-top: 70px;
+}
+
+input[type="submit"] {
+  padding: 15px 25px;
+  color:#fff;
+  background:#2ECC71;
+  border:none;
+  border-radius:5px;
+  border-bottom: 4px solid #27AE60;
+  cursor:pointer;
+}
+a {
+  display:block;
+  color: #fff;
+  margin-top:20px;
+  font-family:Open Sans;
+  font-size:1.2em;
+}
