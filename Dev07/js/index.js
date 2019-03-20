@@ -1,4 +1,11 @@
-function resetSign(event) {
+function reset01() {
+	welcome = '';
+	sign = '';
+	calcSign();
+	setSign();
+}
+
+function reset02(event) {
 	var signData = ['greeting', 'userSign', 'tiles', 'subTotal', 'shipping', 'grandTotal'];
 	
 	for (var i=0; i<signData.length; i++) {
