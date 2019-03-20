@@ -1,11 +1,11 @@
-function reset01() {
+function resetSign01() {
 	welcome = '';
 	sign = '';
 	calcSign();
 	setSign();
 }
 
-function reset02(event) {
+function resetSign02(event) {
 	var signData = ['greeting', 'userSign', 'tiles', 'subTotal', 'shipping', 'grandTotal'];
 	
 	for (var i=0; i<signData.length; i++) {
@@ -56,4 +56,4 @@ initiateVars();
 setSign(); 
 
 var el = document.getElementById('resetButton');
-el.addEventListener('click', reset02, false);
+el.addEventListener('click', resetSign02, false);
