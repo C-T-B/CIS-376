@@ -56,4 +56,4 @@ initiateVars();
 setSign(); 
 
 var el = document.getElementById('resetButton');
-el.addEventListener('click', resetSign02, false);
+el.addEventListener('click', reset02, false);
